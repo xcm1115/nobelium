@@ -61,8 +61,8 @@ const Header = ({ navBarTitle, fullWidth }) => {
       >
         <div className="flex items-center">
           <Link href="/">
-            <a aria-label={BLOG.title}>
-              <div className="h-6">
+            <a aria-label={BLOG.title} class="font-medium">
+              {/* <div className="h-6">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <rect width="24" height="24" className="fill-current text-black dark:text-white" />
                   <rect width="24" height="24" fill="url(#paint0_radial)" />
@@ -73,7 +73,9 @@ const Header = ({ navBarTitle, fullWidth }) => {
                     </radialGradient>
                   </defs>
                 </svg>
-              </div>
+              </div> */}
+
+              {BLOG.title}
             </a>
           </Link>
           {navBarTitle ? (
