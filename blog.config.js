@@ -3,7 +3,7 @@ const BLOG = {
   author: 'xiaoqw',
   email: 'xiaoqw.liao@gmail.com',
   link: 'https://nobelium.vercel.app',
-  description: 'This gonna be an awesome website.',
+  description: 'The separation is temporary, the reunion is forever.',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
@@ -19,8 +19,8 @@ const BLOG = {
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: 'https://twitter.com/craigaryhart',
   seo: {
-    keywords: ['Blog', 'Website', 'Notion'],
-    googleSiteVerification: '', // Remove the value or replace it with your own google site verification code
+    keywords: ['Blog', 'Website', 'Notion', 'xiaoqw'],
+    googleSiteVerification: '7teAKc9lAmx8Nl4xPDSsuHFvp4N45Fm3Eeej9-mR8us', // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
